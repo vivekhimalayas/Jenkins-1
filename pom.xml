@@ -2,5 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kdp.java</groupId>
   <artifactId>HelloWorld</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <distributionManagement>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>maven-test-virt</name>
+          <url>http://10.128.2.128:8081/artifactory/maven-test-virt</url>
+        </repository>
+</distributionManagement>
+<version>0.0.1-SNAPSHOT</version>
 </project>
