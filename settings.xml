@@ -28,7 +28,7 @@
           <snapshots />
           <id>snapshots</id>
           <name>maven-test-virt</name>
-          <url>http://10.128.2.128:8081/artifactory/maven-test-virt</url>
+          <url>http://10.128.2.128:8081/artifactory/maven-test-virt-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -44,7 +44,7 @@
           <snapshots />
           <id>snapshots</id>
           <name>maven-test-virt</name>
-          <url>http://10.128.2.128:8081/artifactory/maven-test-virt</url>
+          <url>http://10.128.2.128:8081/artifactory/maven-test-virt-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
